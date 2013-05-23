@@ -1,0 +1,340 @@
+body{
+    background:url(../images/rsvp/conference_bg.png) #a7ccb5 repeat-x top center;
+}
+
+body, td{
+    font-family:Helvetica,Verdana,Arial,sans-serif;
+    font-size:17px;
+    color: #4c4d4c;
+    
+}
+
+td{
+    font-weight:bold;
+    font-size:larger;
+    padding: 0 20px 20px 0;
+}
+
+td input{
+    width:270px;
+    height:30px;
+}
+
+a, a.visited{
+    color: #4c4d4c;
+    text-decoration:none;
+}
+
+h2{
+    font-style:italic;
+    font-size:19px;
+}
+
+h3{
+    font-style:italic;
+    font-size:17px;
+    margin:0px;
+    padding:0px;
+}
+
+h4{
+    font-size:17px;
+    margin:0px;
+    padding:0px;
+}
+
+p{
+    padding-right:40px;
+    padding-top:0px;
+    margin-top:5px;
+}
+
+.ucase{
+    text-transform:uppercase;
+    color:#80b3ae;
+}
+
+.i{
+    font-style:italic;
+    color: #4c4d4c;
+}
+
+.b{
+    font-weight:bold;
+}
+
+label.error {
+    color: #ff3333;
+    font-weight:normal;
+    font-size:smaller;
+}
+
+
+input.btnSubmit{
+    text-transform:uppercase;
+    color:white;
+    font-weight:bold;
+    font-size:17px;
+    height:44px;
+    background-color: #98baa0;
+    border-style:none;
+}
+
+#divBG{
+    width:1214px;
+    min-height:630px;
+    margin: 0 auto; /* center horizontally */
+    background:url(../images/rsvp/content_bg.png) repeat-x;
+    background-position: 26px 0;
+    background-color:#fff;
+}
+
+#divMainBlock{
+    background:url(../images/rsvp/conference_block_other.png) no-repeat top left;
+    background-position: 0 110px;
+}
+
+#divMainBlockHome{
+/*     background:url(../images/rsvp/conference_block_home.png) no-repeat top left; */
+    background-position: 0 110px;
+}
+
+#divLogo{
+    position:relative;
+    left:138px;
+    top:8px;
+    width:140px;
+}
+
+#divNav{
+    float:right;
+/*     word-spacing:10px; */
+/*     width:350px; */
+    padding:17px 0 0 0;
+    font-weight:bold;
+    font-size:21px;
+    margin-right:50px;
+    color:#fff;
+}
+
+.navDivider{
+margin: 0 15px 0 15px;
+}
+
+#divTopBanner{
+    background:url(../images/rsvp/banner_top.png) no-repeat top left;
+    width:1153px;
+    height:75px;
+    float:left;
+    left:-28px;
+    top:31px;
+    position:relative;
+    margin-bottom:40px;
+}
+
+#divMain{
+/*     clear:both; */
+/*     padding: 100px 0px 30px 580px; */
+}
+
+#banner{
+/*     background:url(../images/rsvp/banner.png) no-repeat; */
+    
+    width: 632px;
+height: 53px;
+color: #fff;
+font-style: italic;
+text-transform: uppercase;
+font-size: 16px;
+float: right;
+background-color: #80b3ae;
+margin-right: -25;
+}
+
+#bannerNub{
+float:left;
+}
+
+#bannerText{
+margin:9px 0 0 15px;
+}
+
+#address{
+    margin-top:20px;
+}
+
+#address strong{
+    font-style:italic;
+}
+
+#mapContainer{
+    background:url(../images/rsvp/address.png) repeat top left;
+    width:582px;
+    height:473px;
+    margin:30px 0;
+}
+
+#mapCanvas{
+    width:500px;
+    height:400px;
+    color:black;
+    position:relative;
+    left:41px;
+    top:37px;
+}
+
+#divPhdLogo{
+    float:right;
+    width:100px;
+    text-align:right;
+    padding-right:45px;
+    margin-left:10px;
+    position:relative;
+    top:-20px;
+}
+
+
+.thinHrule{
+    background:url(../images/rsvp/thin_hrule.png) no-repeat;
+    height:2px;
+    width:574px;
+    margin:20px 0 25px;
+}
+
+.bioTable td{
+vertical-align: top;
+
+}
+
+.bioTable h3 {
+font-style: italic;
+font-size: 17px;
+margin: 0px;
+padding: 0px;
+}
+
+.bioTable p{
+font-family: Helvetica,Verdana,Arial,sans-serif;
+font-size: 17px;
+    color: #4c4d4c;
+font-weight:normal;
+}
+
+
+#shadowBottom{
+width:1214px;
+background:url(../images/rsvp/gradient.png) repeat-x left bottom;
+height:1500px;
+}
+
+
+/*
+#leftCol{
+float:left;
+
+}
+
+#rightCol{
+width:650px;
+float:right;
+margin-top:50px;
+}
+*/
+
+/* GALLERY */
+
+
+#galleryTable .thumbnail{
+width:107px;
+height:107px;
+padding:0px;
+
+} 
+
+/* SHADOWBOX */
+
+#sb-title-inner,#sb-info-inner,#sb-loading-inner,div.sb-message{font-family:"HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;color:#fff;}
+#sb-container{position:fixed;margin:0;padding:0;top:0;left:0;z-index:999;text-align:left;visibility:hidden;display:none;}
+#sb-overlay{position:relative;height:100%;width:100%;}
+#sb-wrapper{position:absolute;visibility:hidden;width:100px;}
+#sb-wrapper-inner{position:relative;border:1px solid #303030;overflow:hidden;height:100px;}
+#sb-body{position:relative;height:100%;}
+#sb-body-inner{position:absolute;height:100%;width:100%;}
+#sb-player.html{height:100%;overflow:auto;}
+#sb-body img{border:none;}
+#sb-loading{position:relative;height:100%;}
+#sb-loading-inner{position:absolute;font-size:14px;line-height:24px;height:24px;top:50%;margin-top:-12px;width:100%;text-align:center;}
+#sb-loading-inner span{background:url(loading.gif) no-repeat;padding-left:34px;display:inline-block;}
+#sb-body,#sb-loading{background-color:#060606;}
+#sb-title,#sb-info{position:relative;margin:0;padding:0;overflow:hidden;}
+#sb-title,#sb-title-inner{height:26px;line-height:26px;}
+#sb-title-inner{font-size:16px;}
+#sb-info,#sb-info-inner{height:20px;line-height:20px;}
+#sb-info-inner{font-size:12px;}
+#sb-nav{float:right;height:16px;padding:2px 0;width:45%;}
+#sb-nav a{display:block;float:right;height:16px;width:16px;margin-left:3px;cursor:pointer;background-repeat:no-repeat;}
+#sb-nav-close{background-image:url(close.png);}
+#sb-nav-next{background-image:url(next.png);}
+#sb-nav-previous{background-image:url(previous.png);}
+#sb-nav-play{background-image:url(play.png);}
+#sb-nav-pause{background-image:url(pause.png);}
+#sb-counter{float:left;width:45%;}
+#sb-counter a{padding:0 4px 0 0;text-decoration:none;cursor:pointer;color:#fff;}
+#sb-counter a.sb-counter-current{text-decoration:underline;}
+div.sb-message{font-size:12px;padding:10px;text-align:center;}
+div.sb-message a:link,div.sb-message a:visited{color:#fff;text-decoration:underline;}
+
+
+
+/* NEW STYLES */
+
+#mainWrapper{
+width:1215px;
+margin:0px auto;
+}
+
+#bodyWrapper{
+width:1189px;
+float:right;
+background:url(../images/rsvp/gradient.png) #fff repeat-x left bottom;
+}
+
+#topNav{
+width:1215px;
+height:117px;
+background:url(../images/rsvp/nav-back.png);
+color:#fff;
+}
+
+#navLinks{
+float:right;
+margin:40px 115px 0 0;
+color:#fff;
+}
+
+#navLinks a{
+color:#fff;
+}
+
+#navLinks a:visited{
+color:#fff;
+}
+
+#leftCol{
+float:left;
+/* background-color: blue; */
+}
+
+#rightCol{
+float:left;
+/* background-color: fuchsia; */
+width:625px;
+margin-top:50px;
+}
+
+#rightColInner{
+padding:15px;
+/* background-color: aqua; */
+}
+
+

@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteCond $1 !^(cmspanel|uploads|test\.html|embed\.html|index\.php|images|blog|css|flash|videos|xmlfolder|sigs|styles|js|robots\.txt|crossdomain\.xml|favicon\.ico)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+AddType video/webm .webm
+AddType audio/webm .weba
+AddType video/ogg .ogv
+
+
+
