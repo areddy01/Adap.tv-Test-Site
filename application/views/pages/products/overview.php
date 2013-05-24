@@ -1,5 +1,5 @@
 <div class="ContentHeader"> 
-	<h2>he most advanced way to buy and sell TV and video advertising is also the easiest<br />to use.</h2>
+	<h2>The most advanced way to buy and sell TV and video advertising is also the easiest<br />to use.</h2>
 </div>
 <div class="row">
     <div class="column gap">
