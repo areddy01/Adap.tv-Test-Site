@@ -4,7 +4,7 @@ body {
 	font-size:14px;
 	line-height:16px;
 	color:#000000;
-	background:url(../images/starburstback.jpg) top center no-repeat #ffffff;
+	background-color: #f4f4f4;
 	height:100%;
 	min-width:960px;
 }
@@ -260,7 +260,8 @@ div.redArrow {
 	margin-top:85px;
 	padding:20px 32px 20px 32px;
 	min-height:100px;
-	background:url(../images/footer_repeat.gif) repeat-x;
+	/*background:url(../images/footer_repeat.gif) repeat-x;*/
+	background-color: #4b4d4b;
 	padding-bottom:200px;
 	margin-bottom:-200px;
 	font-size:11px;
@@ -272,7 +273,7 @@ div.redArrow {
 }
 #FooterNav a {
 	font-size:11px;
-	color:#666666;
+	color:#fff;
 }
 #FooterNav a:hover {
 	color:#e80f18;

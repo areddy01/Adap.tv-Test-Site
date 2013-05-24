@@ -9,7 +9,9 @@
                 <a href="<?=site_url('news/')?>">News</a> &nbsp;&nbsp; | &nbsp;&nbsp;
                 <a href="<?=site_url('contact/')?>">Contact</a> &nbsp;&nbsp; | &nbsp;&nbsp;
                 <a href="http://blog.adap.tv/" target="_blank">Blog</a> &nbsp;&nbsp; | &nbsp;&nbsp;
-                <a href="http://engineering.adap.tv/" target="_blank">Engineering Blog</a>
+                <a href="http://engineering.adap.tv/" target="_blank">Engineering Blog</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+                <a class="OverlayLink" href="<?=site_url('privacy')?>" >Privacy Policy</a>&nbsp;&nbsp; | &nbsp;&nbsp;
+                <a href="<?=site_url('optout')?>" >Opt-Out</a>
             </div>
         	<div id="Copyright">&copy;Adap.tv &nbsp;&nbsp; | &nbsp;&nbsp; All Rights Reserved.</div>
         </div>

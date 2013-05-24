@@ -41,10 +41,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'db-ws-rw';
-$db['default']['username'] = 'website';
+// $db['default']['hostname'] = 'db-ws-rw';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'hktest2_website';
 $db['default']['password'] = 'a1b3c5d7';
-$db['default']['database'] = 'websitecms';
+$db['default']['database'] = 'hktest2_websitecms';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
@@ -56,6 +57,24 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
+// LIVE SITE VERSION
+
+// $db['default']['hostname'] = 'db-ws-rw';
+// $db['default']['username'] = 'website';
+// $db['default']['password'] = 'a1b3c5d7';
+// $db['default']['database'] = 'websitecms';
+// $db['default']['dbdriver'] = 'mysql';
+// $db['default']['dbprefix'] = '';
+// $db['default']['pconnect'] = TRUE;
+// $db['default']['db_debug'] = FALSE;
+// $db['default']['cache_on'] = FALSE;
+// $db['default']['cachedir'] = '';
+// $db['default']['char_set'] = 'utf8';
+// $db['default']['dbcollat'] = 'utf8_general_ci';
+// $db['default']['swap_pre'] = '';
+// $db['default']['autoinit'] = TRUE;
+// $db['default']['stricton'] = FALSE;
 
 
 /* End of file database.php */

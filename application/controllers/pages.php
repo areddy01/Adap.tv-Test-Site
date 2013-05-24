@@ -32,11 +32,23 @@ class Pages extends CI_Controller {
 		if (!$pagenum) {
 			$pagenum = 1;
 		}		
-		
+		 
 		if ($articledb = $this->db->query("select * from `articles` order by date desc")) {
 			$articles = $articledb->result_array();
 		}
 		$results = $articles;
+
+		//$leftCell = $this->db->query("SELECT * FROM articles");
+		//$myresult = mysql_fetch_assoc($leftCell);
+
+
+		$leftquery = $this->db->query("select * from homespots where sortorder = 1");
+		$midquery = $this->db->query("select * from homespots where sortorder = 2");
+		$rightquery = $this->db->query("select * from homespots where sortorder = 3");
+
+		$leftspot = $leftquery->row_array();
+		$midspot = $midquery->row_array();
+		$rightspot = $rightquery->row_array();
 	
 		//$content = $this->loadActive('homepage');
 	
@@ -81,8 +93,8 @@ class Pages extends CI_Controller {
 		$carousel = $this->getPage('homepage','carousel');
 			
 		
-		$this->load->view('pages/header');		
-		$this->load->view('pages/home',array('newsdata'=>array_slice($results,0, 2),'content'=>array_slice($onlineResults[0],0,3), 'carousel'=>$carousel ));
+		// $this->load->view('pages/header_home');		
+		$this->load->view('pages/home',array('newsdata'=>array_slice($results,0, 2),'content'=>array_slice($onlineResults[0],0,3), 'carousel'=>$carousel, 'leftspot'=>$leftspot, 'midspot'=>$midspot, 'rightspot'=>$rightspot));
 		$this->load->view('pages/footer');
 	}
 	

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 
+			This carousel example is created with jQuery and the carouFredSel-plugin.
+			http://jquery.com
+			http://caroufredsel.frebsite.nl
+		-->
+
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" />
+		<meta name="description" value="This full window width continuously scrolling carousel uses an linear easing function and no pauseDuration. It immediately pauses onMouseOver, showing the title of the hovered image. onMouseOut the carousel immediately resumes scrolling." />
+		<meta name="keywords" value="continuous, scrolling, carousel, immediate, pause, stop, onmouseover, onhover" />
+		<title>Continuously scrolling carousel immediately stopping onMouseOver</title>
+
+		<script src="http://code.jquery.com/jquery-1.8.2.min.js" type="text/javascript"></script>
+		<script src="jquery.carouFredSel-6.0.4-packed.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				var $c = $('#carousel'),
+					$w = $(window);
+
+				$c.carouFredSel({
+					align: false,
+					items: 10,
+					scroll: {
+						items: 1,
+						duration: 2000,
+						timeoutDuration: 0,
+						easing: 'linear',
+						pauseOnHover: 'immediate'
+					}
+				});
+
+				
+				$w.bind('resize.example', function() {
+					var nw = $w.width();
+					if (nw < 990) {
+						nw = 990;
+					}
+
+					$c.width(nw * 3);
+					$c.parent().width(nw);
+
+				}).trigger('resize.example');
+
+			});
+		</script>
+		<style type="text/css">
+			html, body {
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				background-color: #eee;
+				position: relative;
+				min-height: 300px;
+			}
+			body * {
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				color: #333;
+				line-height: 22px;
+			}
+
+			#wrapper {
+				background-color: #fff;
+				border-top: 1px solid #ccc;
+				width: 100%;
+				height: 50%;
+				margin-top: -1px;
+				position: absolute;
+				left: 0;
+				top: 50%;
+			}
+			#carousel {
+				margin-top: -100px;
+			}
+			#carousel div {
+				text-align: center;
+				width: 200px;
+				height: 250px;
+				float: left;
+				position: relative;
+			}
+			#carousel div img {
+				border: none;
+			}
+			#carousel div span {
+				display: none;
+			}
+			#carousel div:hover span {
+				background-color: #333;
+				color: #fff;
+				font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+				font-size: 14px;
+				line-height: 22px;
+				display: inline-block;
+				width: 100px;
+				padding: 2px 0;
+				margin: 0 0 0 -50px;
+				position: absolute;
+				bottom: 30px;
+				left: 50%;
+				border-radius: 3px;
+			}
+			
+			#donate-spacer {
+				height: 100%;
+			}
+			#donate {
+				width: 750px;
+				padding: 50px 75px;
+				margin: 0 auto;
+				overflow: hidden;
+			}
+			#donate p, #donate form {
+				margin: 0;
+				float: left;
+			}
+			#donate p {
+				width: 650px;
+			}
+			#donate form {
+				width: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="carousel">
+				<div>
+					<img src="img/fruit1.png" alt="fruit1" width="200" height="200" />
+					<span>Apple</span>
+				</div>
+				<div>
+					<img src="img/fruit2.png" alt="fruit2" width="200" height="200" />
+					<span>Mandarin</span>
+				</div>
+				<div>
+					<img src="img/fruit3.png" alt="fruit3" width="200" height="200" />
+					<span>Banannas</span>
+				</div>
+				<div>
+					<img src="img/fruit4.png" alt="fruit4" width="200" height="200" />
+					<span>Cherries</span>
+				</div>
+				<div>
+					<img src="img/fruit5.png" alt="fruit5" width="200" height="200" />
+					<span>Orange</span>
+				</div>
+				<div>
+					<img src="img/fruit6.png" alt="fruit6" width="200" height="200" />
+					<span>Melon</span>
+				</div>
+				<div>
+					<img src="img/fruit7.png" alt="fruit7" width="200" height="200" />
+					<span>Lemon</span>
+				</div>
+				<div>
+					<img src="img/fruit8.png" alt="fruit8" width="200" height="200" />
+					<span>Grapes</span>
+				</div>
+				<div>
+					<img src="img/fruit9.png" alt="fruit9" width="200" height="200" />
+					<span>Peach</span>
+				</div>
+				<div>
+					<img src="img/fruit10.png" alt="fruit10" width="200" height="200" />
+					<span>Pear</span>
+				</div>
+				<div>
+					<img src="img/fruit11.png" alt="fruit11" width="200" height="200" />
+					<span>Strawberry</span>
+				</div>
+				<div>
+					<img src="img/fruit12.png" alt="fruit12" width="200" height="200" />
+					<span>Melon</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="donate-spacer"></div>
+		<div id="donate">
+			<p>This carousel-example is created for your inspiration, you may use it for free in all of your projects.<br />
+				If you like it, please help me &quot;keep up the good work&quot; and donate.</p>
+			<form id="c-donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick" />
+				<input type="hidden" name="hosted_button_id" value="ENVLWPR4QMU3U" />
+				<input type="image" src="https://www.paypalobjects.com/en_US/NL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+				<img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1" />
+			</form>
+		</div>
+	</body>
+</html>

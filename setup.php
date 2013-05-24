@@ -29,6 +29,10 @@ $xmlstr = <<< XML
 			<field name="Display Time (In Seconds)" dbfield="displaytime" datatype="varchar" fieldtype="text" length="10" required="true" listdisplay="none">
             	<default>5</default>
             </field>
+            <field name="Logo Gallery" dbfield="logogallery" datatype="tinyint" fieldtype="select" length="1" required="true" listdisplay="none">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</field>
 		</type>
 		<type name="articles" tablename="articles" sortfield="date" sorttype="desc" displaytype="active">
 			<field name="Title" dbfield="title" datatype="varchar" fieldtype="text" length="255" required="true" listdisplay="full" />
@@ -56,16 +60,11 @@ $xmlstr = <<< XML
 				<option value="_self">Self - Inside window</option>
 			</field>
 		</type>
-		<type name="solutionsspotlight" tablename="solutionsspotlight" sortfield="sortorder" sorttype="manual" displaytype="active">
+		<type name="solutionsspotlight" tablename="homespots" sortfield="sortorder" sorttype="manual" displaytype="active">
 			<field dbfield="sortorder" datatype="int" length="11" required="false" listdisplay="order" />
-			<field name="Image (122px wide x 94px high)" dbfield="bgimage" fieldtype="file={jpg,png,gif}" datatype="varchar" length="255" required="true" listdisplay="image" />
-			<field name="Product/Solutions Box Title" dbfield="title" datatype="varchar" fieldtype="text" length="50" required="true" listdisplay="truncate=25">
-            	<default>New Product/Solutions Box</default>
-            </field>
-			<field name="Name" dbfield="name" datatype="varchar" fieldtype="text" length="50" required="true" listdisplay="none" />
-			<field name="Tagline" dbfield="position" datatype="varchar" fieldtype="text" length="50" required="true" listdisplay="none" />
+			<field name="Image (275px wide x 150px high)" dbfield="bgimage" fieldtype="file={jpg,png,gif}" datatype="varchar" length="255" required="true" listdisplay="image" />
+			<field name="Header" dbfield="title" datatype="varchar" fieldtype="text" length="50" required="true" listdisplay="truncate=25"></field>
 			<field name="Description" dbfield="bio" datatype="text" fieldtype="multiline" length="3" max-length="180" required="true" listdisplay="none" />
-			<field name="Call To Action" dbfield="ctatext" datatype="varchar" fieldtype="text" length="50" required="true" />
 			<field name="Call To Action Link" dbfield="ctalink" datatype="varchar" fieldtype="text" length="255" required="true" />
 			<field name="CTA Target" dbfield="ctatarget" datatype="varchar" fieldtype="select" length="255" required="true" listdisplay="none">
 				<option value="_blank">Blank - New window</option>
@@ -120,7 +119,27 @@ $xmlstr = <<< XML
                     </options>
                 </content>
            </subsections>
-		</content>		
+		</content>	
+		<content label="solutions">
+			<name>Solutions</name>
+			<fields></fields>
+            <subsections>
+				<content label="herospots">
+					<name>Hero Spots</name>
+					<contentoption type="Slide" sectionType="carousel" />
+				</content>
+            	<content label="homepage">
+                    <name>Lower Third</name>
+                    <fields></fields>
+                    <options selectfield="publish" displaytype="active" sorttype="manual">
+                        <contentoption type="Leadership Box" sectionType="leadershipbanner" />
+                        <contentoption type="Career Box" sectionType="careerbanner" />
+                        <contentoption type="Products/Solutions Box" sectionType="solutionsspotlight" />
+                        <contentoption type="Article Box" sectionType="articleplaceholder" display="hidden" />
+                    </options>
+                </content>
+           </subsections>
+		</content>	
 		<content label="articles">
 			<name>Articles</name>
 			<contentoption type="Article" sectionType="articles" />		
