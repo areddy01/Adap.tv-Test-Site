@@ -1,7 +1,11 @@
-<div class="ContentHeader"> 
-	<h2>Get the most out of the buyers you have, while getting access to buyers you don't.</h2>
-	<p>Adap.tv is the most flexible way to maximize and control revenue with your current relationships while being exposed to new demand in our global video marketplace.</p>
-    <p>To learn more <a href="mailto:publisher.platform@adap.tv" class="arrowButton">Contact Us</a></p>
+<div id="layerslider-container-fw">
+    <div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
+        <div class="ls-layer"  style="slidedirection: right;'">
+            <img src="<?=site_url('/styles/images/solutions/solutions-publishers-bg.jpg')?>" border="0" class="ls-bg" alt="Slide background" />';
+            <img src="<?=site_url('/styles/images/solutions/solutions-publishers-text.png')?>" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+        </div>
+        
+    </div>
 </div>
 <div class="headerRow">
 	<h4 class="icon">Solutions for Publishers<div class="publishersicon"></div></h4>

@@ -212,7 +212,7 @@ foreach ($carousel["onlineResults"] as $slide) {
 <div class="ls-layer"  style="slidedirection: right;'">
 	<img src="/uploads/13681192884.jpg" border="0" class="ls-bg" alt="Slide background" />';
            			<img src="/uploads/1367393443slider4_text.png" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
-           			<img src="/uploads/1367395985learn-more.png" border="0" class="ls-s-1 text" style=" top:335px; left: 65px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; " />
+           			
 
 
 <div id="logogallerywrapper" class="ls-s2">

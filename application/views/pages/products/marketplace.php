@@ -1,8 +1,11 @@
-<div class="ContentHeader"> 
-	<h2>Stop imagining your results and start creating them.</h2>
-    <h3>Just like the world's largest advertisers and media companies have already done in our global video marketplace.</h3>
-	<p>We built an efficient, transparent marketplace that lets buyers and sellers see exactly what they are buying and exactly what they are selling. Imagine that? No matter if it's spot, futures, or RTB inventory, you will always know who, and what you're working with. And when you know, you can adapt. When you adapt, you succeed.</p>
-    <p>To learn more <a href="mailto:advertisers.marketplace@adap.tv" class="arrowButton">Contact Us</a></p>
+<div id="layerslider-container-fw">
+    <div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
+        <div class="ls-layer"  style="slidedirection: right;'">
+            <img src="<?=site_url('/styles/images/products/products-bg.jpg')?>" border="0" class="ls-bg" alt="Slide background" />';
+            <img src="<?=site_url('/styles/images/products/products-marketplace-text.png')?>" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+        </div>
+        
+    </div>
 </div>
 <div class="productsGraphic">
 	<img src="<?=site_url('styles/images/products/marketplace_graphic.jpg')?>" border="0" />

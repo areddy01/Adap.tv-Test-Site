@@ -1,7 +1,11 @@
-<div class="ContentHeader"> 
-	<h2>Technology that helps you adapt to supply and demand.</h2>
-	<p>Get ahead of the competition and increase the value of your inventory. Whether you need more inventory or more technology to run your business, Adap.tv puts the power to do both instantly at your fingertips.</p>
-    <p>To learn more <a href="mailto:info.adnetwork@adap.tv" class="arrowButton">Contact Us</a></p>
+<div id="layerslider-container-fw">
+    <div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
+        <div class="ls-layer"  style="slidedirection: right;'">
+            <img src="<?=site_url('/styles/images/solutions/solutions-adnetworks-bg.jpg')?>" border="0" class="ls-bg" alt="Slide background" />';
+            <img src="<?=site_url('/styles/images/solutions/solutions-adnetworks-text.png')?>" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+        </div>
+        
+    </div>
 </div>
 <div class="headerRow">
 	<h4 class="icon">Solutions for Ad Networks<div class="adnetworksicon"></div></h4>

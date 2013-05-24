@@ -273,6 +273,7 @@ div.redArrow {
 	position:relative;
 	width:100%;
 	background-color:#ffffff;
+	clear:both;
 }
 
 #CrumbWrapper {
@@ -1965,7 +1966,8 @@ a.detailArrowButton span.redarrow {
 
 #layerslider-container-fw{
 margin-top: 160px;
-
+margin-left:-100%;
+    margin-right:-100%;
 }
 
 .ls-layer,

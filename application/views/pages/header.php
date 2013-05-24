@@ -31,11 +31,11 @@
 <link rel="stylesheet" href="<?PHP echo site_url('/styles/css/layerslider/layerslider.css'); ?>" type="text/css">
 		<!-- <link rel="stylesheet" href="../assets/css/style.css" type="text/css"> -->
 
-<script src="js/layerslider/jQuery/jquery.js" type="text/javascript"></script>
-		<script src="js/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
-		<script src="js/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
-		<script src="js/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-		<script src="js/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="<?=site_url()?>/js/layerslider/jQuery/jquery.js" type="text/javascript"></script>
+		<script src="<?=site_url()?>/js/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+		<script src="<?=site_url()?>/js/layerslider/jQuery/jquery-transit-modified.js" type="text/javascript"></script>
+		<script src="<?=site_url()?>/js/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+		<script src="<?=site_url()?>/js/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$.noConflict();
@@ -161,7 +161,7 @@
 
 <!-- START SLIDER -->
 
-<div id="layerslider-container-fw">
+<!-- <div id="layerslider-container-fw">
 	<div id="layerslider" style="width: 100%; height: 327px; margin: 0px auto; ">
 		<div class="ls-layer"  style="slidedirection: right;'">
 			<img src="/uploads/13681192884.jpg" border="0" class="ls-bg" alt="Slide background" />';
@@ -171,7 +171,7 @@
 		
 	</div>
 
-</div>
+</div> -->
 
 <!-- END SLIDER -->
 

@@ -1,7 +1,11 @@
-<div class="ContentHeader"> 
-    <h2>Understand how TV and video work together to reach your audience more powerfully.</h2>
-	<p>Our programmatic solution is a more effective way to reach your audience in a way that adapts precisely to your goals. Hit your numbers without getting hit by surprises. And do it all with a managed service that comes with in-depth audience insights and expertise.</p>
-    <p>To learn more <a href="mailto:info.agency@adap.tv" class="arrowButton">Contact Us</a></p>
+<div id="layerslider-container-fw">
+    <div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
+        <div class="ls-layer"  style="slidedirection: right;'">
+            <img src="<?=site_url('/styles/images/solutions/solutions-bg.jpg')?>" border="0" class="ls-bg" alt="Slide background" />';
+            <img src="<?=site_url('/styles/images/solutions/solutions-agencies-text.png')?>" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+        </div>
+        
+    </div>
 </div>
 <div class="headerRow">
 	<h4 class="icon">Solutions for Agencies<div class="agencyicon"></div></h4>

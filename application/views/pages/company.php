@@ -1,11 +1,11 @@
-<div class="ContentHeader">
-    <h2>Media evolves. We adapt.</h2>
-    <h3>It's more than our name, it's how we think.</h3>
-    <div class="headerColumn gap">From three networks, to a thousand cable channels, to millions of websites and billions of videos - the way consumers watch video is evolving. Yet the way we buy and sell video advertising isn't. Creating inefficiency, waste, and confusion. How can the old paradigm survive? It can't.</div>
-
-    <div class="headerColumn">Adap.tv is leading the way with technology that's evolving with the changing media landscape, not against it. Our leadership is committed to developing the kinds of innovative solutions that will not only modernize the video advertising marketplace, but remain adaptable to whatever the future brings.</div>
-
-    <div class="clear"></div>
+<div id="layerslider-container-fw">
+    <div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
+        <div class="ls-layer"  style="slidedirection: right;'">
+            <img src="<?=site_url('/styles/images/solutions/solutions-adnetworks-bg.jpg')?>" border="0" class="ls-bg" alt="Slide background" />';
+            <img src="<?=site_url('/styles/images/solutions/solutions-adnetworks-text.png')?>" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+        </div>
+        
+    </div>
 </div>
 <div class="contentpadding">
     <h5>Leadership</h5>
