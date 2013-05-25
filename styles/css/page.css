@@ -1966,8 +1966,13 @@ a.detailArrowButton span.redarrow {
 
 #layerslider-container-fw{
 margin-top: 160px;
-margin-left:-100%;
-    margin-right:-100%;
+
+}
+
+#layerslider-container-fw-sub{
+margin-top: 160px;
+/*margin-left:-100%;
+    margin-right:-100%;*/
 }
 
 .ls-layer,

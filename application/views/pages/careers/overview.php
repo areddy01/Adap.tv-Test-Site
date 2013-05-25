@@ -1,8 +1,4 @@
-<div class="ContentHeader"> 
-	<h2>Change begins with you and ends with us.</h2>
-	<p>As Adap.tv continues to evolve as an industry leader, we depend on the insights and dedication of every single person who joins us, from engineers and developers, to business and administration professionals. We love new ways of thinking, new ideas, and will reward you for both. We're not about org charts. We're about doing great work with great people, having fun along the way, and creating positive transformation in the video advertising industry. As we grow, so does your career. As you help power Adap.tv's evolution, you'll gain valuable experience. The opportunities are truly unlimited. </p>
-    <p>Visit our <a href="<?=site_url('careers/openings/')?>" class="arrowButton">Openings</a></p>
-</div>
+
 <div class="contentpadding overview">
     <h5>Our core values drive our culture. This is what we believe:</h5>
     <div class="careersgraphic">

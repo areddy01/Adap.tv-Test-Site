@@ -102,30 +102,36 @@ class Pages extends CI_Controller {
 	function solutions($page=NULL) {	
 		if (!$page) {
 			$page = "overview";
+			$hero = "overview";
 		}
 		switch ($page) {
 			case 'overview':
 				$title = 'Overview';
+				$hero = "overview";
 				break;
 			
 			case 'agencies':
 				$title = 'Agencies';
+				$hero = "agencies";
 				break;
 				
 			case 'tradingdesks':
 				$title = 'Trading Desks';
+				$hero = "tradingdesks";
 				break;
 			
 			case 'publishers':
 				$title = 'Publishers';
+				$hero = "publishers";
 				break;
 				
 			case 'adnetworks':
 				$title = 'Ad Networks';
+				$hero = "adnetworks";
 				break;
 		}		
 		$crumbs = array('Solutions'=>'solutions/overview/',$title=>'');
-		$this->load->view('pages/header', array('section'=>'solutions','page'=>$page,'crumbs'=>$crumbs));	
+		$this->load->view('pages/header', array('section'=>'solutions','page'=>$page,'crumbs'=>$crumbs, 'hero'=>$hero));	
 		$this->load->view('pages/solutions/'.$page);
 		$this->load->view('pages/footer');
 	}	
@@ -176,26 +182,31 @@ class Pages extends CI_Controller {
 	function products($page=NULL) {	
 		if (!$page) {
 			$page = "overview";
+			$hero = "overview";
 		}
 		switch ($page) {
 			case 'overview':
 				$title = 'Overview';
+				$hero = "overview";
 				break;
 			
 			case 'platform':
 				$title = 'Platform';
+				$hero = "platform";
 				break;
 				
 			case 'marketplace':
 				$title = 'Marketplace';
+				$hero = "marketplace";
 				break;
 			
 			case 'appcenter':
 				$title = 'App Center';
+				$hero = "appcenter";
 				break;
 		}		
 		$crumbs = array('Products'=>'products/overview/',$title=>'');		
-		$this->load->view('pages/header', array('section'=>'products','page'=>$page,'crumbs'=>$crumbs));		
+		$this->load->view('pages/header', array('section'=>'products','page'=>$page,'crumbs'=>$crumbs, 'hero'=>$hero));		
 		$this->load->view('pages/products/'.$page);
 		$this->load->view('pages/footer');
 	}
@@ -203,22 +214,26 @@ class Pages extends CI_Controller {
 	function careers($page=NULL) {	
 		if (!$page) {
 			$page = "overview";
+			$hero = "careers";
 		}
 		switch ($page) {
 			case 'overview':
 				$title = 'Overview';
+				$hero = "careers";
 				break;
 			
 			case 'engineering':
 				$title = 'Engineering';
+				$hero = "careers";
 				break;
 				
 			case 'openings':
 				$title = 'Openings';
+				$hero = "careers";
 				break;
 		}		
 		$crumbs = array('Careers'=>'careers/overview/',$title=>'');
-		$this->load->view('pages/header', array('section'=>'careers','page'=>$page,'crumbs'=>$crumbs));		
+		$this->load->view('pages/header', array('section'=>'careers','page'=>$page,'crumbs'=>$crumbs, 'hero'=>$hero));		
 		$this->load->view('pages/careers/'.$page);
 		$this->load->view('pages/footer');
 	}
@@ -252,8 +267,8 @@ class Pages extends CI_Controller {
 	
 	function company() {	
 		$crumbs = array('Company'=>'company/','Leadership'=>'');
-		
-		$this->load->view('pages/header', array('section'=>'company','page'=>'overview','crumbs'=>$crumbs));	
+		$hero = "company";
+		$this->load->view('pages/header', array('section'=>'company','page'=>'overview','crumbs'=>$crumbs, 'hero'=>$hero));	
 		$this->load->view('pages/company');
 		$this->load->view('pages/footer');
 	}
@@ -270,8 +285,8 @@ class Pages extends CI_Controller {
 		}
 		
 		$crumbs = array('Company'=>'company/','News'=>'news/');
-		
-		$this->load->view('pages/header', array('section'=>'company','page'=>'news','crumbs'=>$crumbs));
+		$hero = "news";
+		$this->load->view('pages/header', array('section'=>'company','page'=>'news','crumbs'=>$crumbs, 'hero'=>$hero));
 		$this->load->view('pages/articles',array('articledata'=>$articledata));
 		$this->load->view('pages/footer');
 		
@@ -315,8 +330,13 @@ class Pages extends CI_Controller {
 		$totalpages = ceil(count($results)/8);
 		
 		$crumbs = array('Company'=>'company/','News'=>'');
+		$hero = "news";
+
+
+
+
 		
-		$this->load->view('pages/header', array('section'=>'company','page'=>'news','crumbs'=>$crumbs));		
+		$this->load->view('pages/header', array('section'=>'company','page'=>'news','crumbs'=>$crumbs, 'hero'=>$hero));		
 		$this->load->view('pages/news',array('newsdata'=>array_slice($results,(($pagenum-1) * 8), 8),'pagenum'=>$pagenum,'totalpages'=>$totalpages));
 		$this->load->view('pages/footer');
 	}

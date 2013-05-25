@@ -1,6 +1,4 @@
-<div class="ContentHeader openings">
-  <h2>Current Openings</h2>
-</div>
+
 <div class="openingsWindow"> 
   <!-- BEGIN JOBVITE CODE --> 
   <!--

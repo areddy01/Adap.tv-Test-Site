@@ -1,9 +1,4 @@
-<div class="ContentHeader engineering"> 
-    <h2>We’re revolutionizing the video and TV advertising industry one line of code at a time.</h2>
-	<h3>So every line counts, including yours.</h3>
-    <p>There isn’t a company in Silicon Valley that isn’t talking about innovation, or revolution, or staying nimble. But with us, it’s actually true. We’re radically changing the way our industry buys and sells video and TV advertising and we’re growing fast. How fast? We’re the second fastest growing Bay Area company in the Inc. 500. In fact, by the time you finish reading this, we’ve probably deployed something new. With us, what you engineer today goes live tomorrow. That’s why we need creative minds who think big. Order-takers and robots need not apply.</p>
-    <p>Want in? See our <a href="<?=site_url('careers/openings/')?>" class="arrowButton spaceright">Openings</a>    Want to know more? Check out our <a href="http://engineering.adap.tv/" class="arrowButton">Engineer's Blog</a></p>
-</div>
+
 <div class="contentpadding engineering">
 	<h5>What we can promise you?</h5>
 	<div class="graphic">
