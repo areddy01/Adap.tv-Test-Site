@@ -1,4 +1,9 @@
-
+<div id="heroStatement">
+    <h1>Careers</h1>
+    <!-- <h2>TV and video are merging. A new media landscape is being <br/>created everyday, and it isn't waiting for you.</h2> -->
+    <p>As Adap.tv continues to evolve as an industry leader, we depend on the insights and dedication of every single person who joins us, from engineers and developers, to business and administration professionals. We love new ways of thinking, new ideas, and will reward you for both. We're not about org charts. We're about doing great work with great people, having fun along the way, and creating positive transformation in the video advertising industry. <span class="regularBold">Visit our <a href="/solutions">openings ></span></a>  </p>
+    <hr>
+</div>
 <div class="contentpadding overview">
     <h5>Our core values drive our culture. This is what we believe:</h5>
     <div class="careersgraphic">

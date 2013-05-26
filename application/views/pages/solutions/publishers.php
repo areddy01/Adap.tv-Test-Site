@@ -2,6 +2,11 @@
 <div class="headerRow">
 	<h4 class="icon">Solutions for Publishers<div class="publishersicon"></div></h4>
 </div>
+<br><br><br>
+<div id="heroStatement">
+    <p>Adap.tv is the most flexible way to maximize and control revenue with your current relationships while being exposed to new demand in our global video marketplace. <br><a href="/solutions/agencies/platform">Learn more ></a>  </p>
+    <hr>
+</div>
 <div class="graphic">
 	<img src="<?=site_url('/styles/images/solutions/publishers_graphic.jpg')?>" border="0" />
 </div>

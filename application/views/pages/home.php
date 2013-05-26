@@ -191,12 +191,12 @@
 							<h1>Adapt.TV</h1>
 						</a>
 						<ul id="TopNav">
-							<li class="divider">
+							<!-- <li class="divider">
 								<a class="OverlayLink" href="<?=site_url('privacy')?>">Privacy Policy</a>
 							</li>
 							<li>
 								<a class="OverlayLink" href="<?=site_url('optout')?>">Opt-out</a>
-							</li>
+							</li> -->
 						</ul>
 						<a id="LoginButton" target="_blank" href="https://my.adap.tv/osclient/">Login</a>
 						<?PHP $this->

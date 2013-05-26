@@ -64,6 +64,11 @@ a.appcenter:visited, a.appcenter:link, a.appcenter:active {
 	color:#e80f18;
 	text-decoration:underline;
 }
+
+.regularBold{
+font-family:'HelveticaNeueW01-75Bold', helvetica, sans-serif; 
+}
+
 #Header {
 	position:fixed;
 	background:url(../images/nav_repeat.gif) repeat-x #ffffff;
@@ -2050,6 +2055,68 @@ margin-top: 160px;
 				color: #1e73be;
 			}
 
+#heroStatement{
+padding:60px 64px 0 64px;
+}
 
+#heroStatement h1{
+font-family:'HelveticaNeueW01-67MdCn 692710', helvetica, sans-serif;
+	color:#4d4c4d;
+	font-size:27px;
+	line-height:56px;
+	margin-bottom:12px;
+}
 
+#heroStatement h2{
+	color:#ea2830;
+	font-size:20px;
+	line-height:23px;
+	margin-bottom:20px;
+}
 
+#heroStatement p {
+font-size:13px;
+}
+
+#heroStatement a {
+	font-family:'HelveticaNeueW01-75Bold', helvetica, sans-serif; 
+font-size:13px;
+color:#ea2830;
+text-decoration: none;
+}
+
+#heroStatement hr{
+height:1px;
+border: 0;
+background-color:#4b4c4b;
+margin: 40px 0 10px 0;
+}
+
+#heroStatement h1 div.agencyicon {
+	
+	
+	width:87px;
+	height:45px;
+	background:url(../images/solutions/solutions_icons.png) 0px 0px no-repeat; 
+}
+#heroStatement h1 div.tradingdeskicon {
+	
+	
+	width:60px;
+	height:59px;
+	background:url(../images/solutions/solutions_icons.png) 0px -112px no-repeat; 
+}
+#heroStatement h1 div.publishersicon {
+	
+	
+	width:87px;
+	height:52px;
+	background:url(../images/solutions/solutions_icons.png) 0px -51px no-repeat; 
+}
+#Content h1 div.adnetworksicon {
+	
+	
+	width:89px;
+	height:61px;
+	background:url(../images/solutions/solutions_icons.png) 0px -179px no-repeat; 
+}

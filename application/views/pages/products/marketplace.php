@@ -1,4 +1,9 @@
-
+<div id="heroStatement">
+    <h1>The Adap.tv Marketplace</h1>
+    <!-- <h2>TV and video are merging. A new media landscape is being <br/>created everyday, and it isn't waiting for you.</h2> -->
+    <p>In the Marketplace you can buy video, sell video or do both. It's where all types of companies worldwide connect and trade video advertising.</p>
+    <hr>
+</div>
 <div class="productsGraphic">
 	<img src="<?=site_url('styles/images/products/marketplace_graphic.jpg')?>" border="0" />
 </div>

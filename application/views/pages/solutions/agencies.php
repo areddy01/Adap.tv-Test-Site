@@ -1,5 +1,11 @@
+
 <div class="headerRow">
 	<h4 class="icon">Solutions for Agencies<div class="agencyicon"></div></h4>
+</div>
+<br><br><br>
+<div id="heroStatement">
+    <p>Our programmatic solution is a more effective way to reach your audience in a way that adapts precisely to your goals. Hit your numbers without getting hit by surprises. And do it all with a managed service that comes with in-depth audience insights and expertise. <br><a href="/solutions/agencies/platform">Learn more ></a>  </p>
+    <hr>
 </div>
 <div class="clear"></div>
 <div class="graphic">

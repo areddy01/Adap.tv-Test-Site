@@ -1,7 +1,11 @@
-
+<div id="heroStatement">
+    <h1>The Adap.tv Platform</h1>
+    <h2>TV and video are merging. A new media landscape is being <br/>created everyday, and it isn't waiting for you.</h2>
+    <p>Take control of your video advertising business with a programmatic solution. Our easy-to-use technology tools and services automate the process of buying and selling. Whether it's web, mobile, or connected TV – everything can be easily configured to work across all screens, with all technologies. Make adjustments in real time, anticipate, adapt. <a href="/solutions">Learn more ></a>  </p>
+    <hr>
+</div>
 <div class="productsGraphic">
 	<div class="graphicHeader">
-        <h4>The Adap.tv Platform</h4>
         <a id="consolebutton" class="detailButton selected" href="#">Console Detail<span class="rightend"></span><span class="buttonarrow"></span></a>
         <a id="techbutton" class="detailButton" href="#">Technology Detail<span class="rightend"></span><span class="buttonarrow"></span></a>
     </div>

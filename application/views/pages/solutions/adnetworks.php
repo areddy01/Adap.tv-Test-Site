@@ -1,6 +1,11 @@
 <div class="headerRow">
 	<h4 class="icon">Solutions for Ad Networks<div class="adnetworksicon"></div></h4>
 </div>
+<br><br><br>
+<div id="heroStatement">
+    <p>Get ahead of the competition and increase the value of your inventory. Whether you need more inventory or more technology to run your business, Adap.tv puts the power to do both instantly at your fingertips. <br><a href="/solutions/agencies/platform">Learn more ></a>  </p>
+    <hr>
+</div>
 <div class="graphic">
 	<img src="<?=site_url('/styles/images/solutions/ad_networks_graphic.jpg')?>" border="0" />
 </div>

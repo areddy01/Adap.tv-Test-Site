@@ -1,6 +1,11 @@
 <div class="headerRow">
 	<h4 class="icon">Solutions for Trading Desks<div class="tradingdeskicon"></div></h4>
 </div>
+<br><br><br>
+<div id="heroStatement">
+    <p>There is no second guessing with our solution. With our pin-point targeting technology, you'll know exactly who you're buying and where. Eliminate waste, get better results, and adapt to changes like never before. <br><a href="/solutions/agencies/platform">Learn more ></a>  </p>
+    <hr>
+</div>
 <div class="graphic">
 	<img src="<?=site_url('/styles/images/solutions/trading_desk_graphic.jpg')?>" border="0" />
 </div>
