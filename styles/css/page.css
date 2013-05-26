@@ -1126,13 +1126,7 @@ a.nextLink:hover {
 #Content .contactemails h5 {
 	margin-bottom:18px;
 }
-.mapinstructions {
-	position:absolute;
-	top:59px;
-	left:249px;
-	font-size:12px;
-	color:#454546;
-}
+
 .mappin {
 	position:absolute;
 	background:url(../images/contact/map_pin.png) no-repeat;
@@ -1145,12 +1139,47 @@ a.nextLink:hover {
 	position:absolute;
 	font-family:'HelveticaNeueW01-77BdCn 692722';
 	font-size:11px;
-	color:#454546;
+	color:#ffffff;
 	text-transform:uppercase;
 }
+#mapHeader{
+color:#ffffff;
+width:400px;
+height:35px;
+padding-top:40px;
+}
+
+#mapHeaderDivider{
+width:2px;
+height:35px;
+background-color:#ffffff;
+float:left;
+display:block;
+margin:0 10px 0 10px;
+}
+
+#mapHeaderTitle{
+font-family:'HelveticaNeueW01-75', helvetica, sans-serif;
+	font-size:38px;
+	line-height:40px;
+	position: relative;
+	float:left;
+
+}
+
+#mapHeader.mapinstructions span {
+	font-size:12px;
+	color:#ffffff;
+	float:right;
+	height:auto;
+	display: block;
+	margin-top: 20px;
+}
+
+
 #SanMateo {
-	top: 186px;
-	left: 153px;
+	top: 242px;
+	left: 165px;
 }
 #SanMateo div.pinLabel {
 	top: 4px;
@@ -1158,8 +1187,8 @@ a.nextLink:hover {
 	width: 60px;
 }
 #LosAngeles {
-	top: 205px;
-	left: 151px;
+	top: 255px;
+	left: 169px;
 }
 #LosAngeles div.pinLabel {
 	top: 12px;
@@ -1167,16 +1196,16 @@ a.nextLink:hover {
 	width: 70px;
 }
 #Chicago {
-	top: 182px;
-	left: 234px;
+	top: 225px;
+	left: 255px;
 }
 #Chicago div.pinLabel {
 	top: 14px;
 	left: -40px;
 }
 #NewYork {
-	top: 183px;
-	left: 270px;
+	top: 225px;
+	left: 285px;
 }
 #NewYork div.pinLabel {
 	top: 21px;
@@ -1184,8 +1213,8 @@ a.nextLink:hover {
 	width:60px;
 }
 #Europe {
-	top: 154px;
-	left: 440px;
+	top: 200px;
+	left: 423px;
 }
 #Europe div.pinLabel {
 	top: 22px;
@@ -1193,8 +1222,8 @@ a.nextLink:hover {
 	width:60px;
 }
 #Australia {
-	top: 401px;
-	left: 801px;
+	top: 430px;
+	left: 734px;
 }
 #Australia div.pinLabel {
 	top: 2px;
@@ -1202,8 +1231,8 @@ a.nextLink:hover {
 }
 
 #India {
-	top: 260px;
-	left: 635px;
+	top: 300px;
+	left: 590px;
 }
 #India div.pinLabel {
 	top: 2px;
@@ -1248,7 +1277,7 @@ a.nextLink:hover {
 #Australia .toolTipArrow {
 	left:212px;
 }
-#Content .mapToolTip h4 {
+.mapToolTip h4 {
     font-family:'HelveticaNeueW01-67MdCn 692710', helvetica, sans-serif;
 	font-size:18px;
 	line-height:22px;
@@ -1256,6 +1285,7 @@ a.nextLink:hover {
 }
 .mapToolTip p {
     font-family:'HelveticaNeueW01-57Cn', helvetica, sans-serif; 
+    font-size:14px;
 	color:#666666;
 }
 .mapToolTip div.phone {

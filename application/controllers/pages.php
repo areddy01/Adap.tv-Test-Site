@@ -342,7 +342,8 @@ class Pages extends CI_Controller {
 	}
 	
 	function contact() {
-		$this->load->view('pages/header', array('section'=>'contact'));		
+		$hero = "contact";
+		$this->load->view('pages/header', array('section'=>'contact', 'hero'=>$hero));		
 		$this->load->view('pages/contact');
 		$this->load->view('pages/footer');
 	}

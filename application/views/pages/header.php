@@ -66,7 +66,9 @@
 					showBarTimer : false,
 					showCircleTimer : false,
 					autoStart : false,
-					// globalBGImage : 'http://hk-test2.com/uploads/13681192884.jpg'
+					navButtons : false,
+					touchNav : false,
+					imgPreload : false
 
 				});
 			});		
@@ -211,7 +213,7 @@ break;
 
 case 'platform':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/products/products-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -228,7 +230,7 @@ break;
 
 case 'marketplace':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/products/products-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -247,7 +249,7 @@ break;
 // SOLUTIONS
 case 'overview':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/solutions/solutions-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -264,7 +266,7 @@ break;
 
 case 'agencies':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/solutions/solutions-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -281,7 +283,7 @@ break;
 
 case 'tradingdesks':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/solutions/solutions-tradingdesk-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -298,7 +300,7 @@ break;
 
 case 'publishers':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/solutions/solutions-publishers-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -315,7 +317,7 @@ break;
 
 case 'adnetworks':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/solutions/solutions-adnetworks-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -335,7 +337,7 @@ break;
 
 case 'company':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/company/company-leadership-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -352,7 +354,7 @@ break;
 
 case 'news':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/company/company-news-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
@@ -370,12 +372,165 @@ break;
 //CAREERS	
 case 'careers':
 echo '
-<div id="layerslider-container-fw-sub">
+			<div id="layerslider-container-fw-sub">
 				<div id="layerslider" style="width: 100%; height: 328px; margin: 0px auto; ">
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/careers/careers-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
 						<img src="/styles/images/careers/careers-text.png" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
 					</div>
+					<div class="ls-layer"  style="slidedirection: right;">
+						<img src="/styles/images/company/company-leadership-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
+						<img src="/styles/images/company/company-leadership-text.png" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+					</div>
+				</div>
+			</div>
+			';
+break;	
+
+//CONTACT	
+case 'contact':
+echo '
+			<div id="layerslider-container-fw-sub">
+				<div id="layerslider" style="width: 100%; height: 530px; margin: 0px auto; ">
+					<div class="ls-layer"  style="slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90;">
+						<img src="/styles/images/contact/contact-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
+						<img src="/styles/images/contact/contact-map.png" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
+						<div id="mapHeader" class="ls-s2">
+							<div id="mapHeaderTitle">Contact</div>
+							<div id="mapHeaderDivider"></div>
+							<div class="mapinstructions"><div style="margin-top:18px;">Rollover the map pins for office details.</div></div>
+						</div>
+						<div class="ls-s2">
+							<div id="Europe" class="mappin">
+								<div class="pinLabel">Europe</div>
+								<div class="mapToolTip">
+									<h4>Europe</h4>
+									<p>
+										131-151 Great Titchfield Street
+										<br>London, UK W1W 5BB</p>
+									<div class="phone">+44 20 3008 5296</div>
+									<br/>
+									<br/>
+									<a class="arrowButton" href="mailto:uk.info@adap.tv">uk.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="Chicago" class="mappin">
+								<div class="pinLabel">Chicago</div>
+								<div class="mapToolTip">
+									<h4>Chicago</h4>
+									<p>
+										444 North Wells Street
+										<br>
+										Suite 402
+										<br>Chicago, IL 60654</p>
+									<div class="phone">312-798-9380</div>
+									<br/>
+									<br/>
+									<a class="arrowButton" href="mailto:chi.info@adap.tv">chi.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="NewYork" class="mappin">
+								<div class="pinLabel">New York</div>
+								<div class="mapToolTip">
+									<h4>New York</h4>
+									<p>
+										915 Broadway
+										<br>							
+										Suite 1109
+										<br>New York, NY 10010</p>
+									<div class="phone">646-376-4244</div>
+									<br/>							
+									<br/>							
+									<a class="arrowButton" href="mailto:ny.info@adap.tv">ny.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="SanMateo" class="mappin">
+								<div class="pinLabel">San Mateo</div>
+								<div class="mapToolTip">
+									<h4>San Mateo - Headquarters</h4>
+									<p>
+										1 Waters Park Drive
+										<br>							
+										Suite 250
+										<br>San Mateo, CA 94403</p>
+									<div class="phone">650-286-4420</div>
+									<br>
+									<br>
+									<a class="arrowButton" href="mailto:info@adap.tv">info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="LosAngeles" class="mappin">
+								<div class="pinLabel">Los Angeles</div>
+								<div class="mapToolTip">
+									<h4>Los Angeles</h4>
+									<p>
+										8611 Washington Blvd
+										<br>Culver City, CA 90232</p>
+									<div class="phone">818-636-2996</div>
+									<br>
+									<br>
+									<a class="arrowButton" href="mailto:la.info@adap.tv">la.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="India" class="mappin">
+								<div class="pinLabel">India</div>
+								<div class="mapToolTip">
+									<h4>India</h4>
+									<p>
+										Roxana Towers,
+										<br>							
+										6th Floor, Block B,
+										<br>							
+										Begumpet,
+										<br/>							
+										Hyderabad AP 500016
+									</p>
+									<div class="phone">+91 40-40073264</div>
+									<br>
+									<br>
+									<a class="arrowButton" href="mailto:India.info@adap.tv">India.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+							<div id="Australia" class="mappin">
+								<div class="pinLabel">Australia</div>
+								<div class="mapToolTip">
+									<h4>Australia</h4>
+									<p>
+										20 York Street,
+										<br>							
+										Level 3
+										<br>Sydney 2000, NSW Australia</p>
+									<div class="phone">+61 2 90061477</div>
+									<br>
+									<br>
+									<a class="arrowButton" href="mailto:au.info@adap.tv">au.info@adap.tv</a>
+									<div class="toolTipBottom">
+										<div class="toolTipArrow"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
 					<div class="ls-layer"  style="slidedirection: right;">
 						<img src="/styles/images/company/company-leadership-bg.jpg" border="0" class="ls-bg" alt="Slide background" />
 						<img src="/styles/images/company/company-leadership-text.png" border="0" class="ls-s-1 text" style=" top:0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 750; durationout : 750; easingin : easeOutQuint; fadein : 90; "/>
